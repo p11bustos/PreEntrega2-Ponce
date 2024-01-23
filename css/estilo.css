@@ -15,6 +15,8 @@
     width: 50px;
 }
 
+/*Titulos */
+
 .tituloPrincipal {
 
     width: 50%;
@@ -66,10 +68,14 @@ font-style: oblique;
 
 }
 
+/*Banderas en pag países*/
+
 .banderaEspaña {
 
     width: 200px;
     height: 200px;
+    padding: 25px;
+    border: 4px inset grey;
     
 }
 
@@ -77,21 +83,24 @@ font-style: oblique;
 
     width: 200px;
     height: 200px;
-
+    padding: 25px;
+    border: 4px inset grey;
 }
 
 .banderaNuevazelanda {
 
     width: 200px;
     height: 200px;
-
+    padding: 25px;
+    border: 4px inset grey;
 }
 
 .banderaFrancia {
 
     width: 200px;
     height: 200px;
-
+    padding: 25px;
+    border: 4px inset grey;
 
 }
 
@@ -99,7 +108,8 @@ font-style: oblique;
 
     width: 200px;
     height: 200px;
-
+    padding: 25px;
+    border: 4px inset grey;
 
 }
 
@@ -107,69 +117,83 @@ font-style: oblique;
 
     width: 200px;
     height: 200px;
-
+    padding: 25px;
+    border: 4px inset grey;
 
 }
+
+/*Listado de paises */
 
 .paisUno {
     background: linear-gradient(to left,bisque , cadetblue) ;
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 5px inset black;
     margin-bottom: 15px;
     transition: all 2s;
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
 .paisDos {
-    background: linear-gradient(to left,bisque , rgba(145, 160, 95, 0.853)) ;
+    background: linear-gradient(to left,bisque , cadetblue) ;
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 5px inset black;
     margin-bottom: 15px;
     transition: all 2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
 .paisTres {
     background: linear-gradient(to left,bisque , cadetblue) ;
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 5px inset black;
     margin-bottom: 15px;
     transition: all 2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
 .paisCuatro {
     background: linear-gradient(to left,bisque , cadetblue) ;
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 5px inset black;
     margin-bottom: 15px;
     transition: all 2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
 .paisCinco {
     background: linear-gradient(to left,bisque , cadetblue) ;
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     border: 5px inset black;
     margin-bottom: 15px;
     transition: all 2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
 .paisSeis {
     background: linear-gradient(to left,bisque , cadetblue) ;
-display: inline-block;
-    width: 400px;
-    height: 400px;
+    display: inline-block;
+    width: 500px;
+    height: 500px;
     border: 5px inset black;
     margin-bottom: 15px;
     transition: all 2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
    
 }
 
@@ -188,6 +212,8 @@ background: linear-gradient(to left, cadetblue, bisque)
 
 
 }
+
+/*hoover etiquetas paises */
 
 .paisSeis:hover {
     background: linear-gradient(to left, cadetblue, bisque) ;
@@ -579,4 +605,12 @@ background: linear-gradient(to left, cadetblue, bisque)
 
 .tituloWorking::first-letter {
     color: grey;
+}
+
+/*Footer*/
+
+footer {
+
+    text-align: center;
+    padding: 20px;
 }
