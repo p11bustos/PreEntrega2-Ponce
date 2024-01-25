@@ -1,616 +1,527 @@
+@charset "UTF-8";
 .bocaJuniors {
-
-    margin: 0px;
-    background-color: bisque;
+  margin: 0px;
+  background-color: bisque;
 }
 
 .listadoPaises {
-
-    background-color: bisque;
-    text-align: center;
+  background-color: bisque;
+  text-align: center;
 }
 
-
 .tamañoEscudo {
-    width: 50px;
+  width: 50px;
 }
 
 /*Titulos */
-
 .tituloPrincipal {
-
-    width: 50%;
-    height: 70px;
-    background-color: bisque;
-    border: 5px inset black;
-text-align: center;
-margin-left: 25%;
-border-radius: 10px;
-margin-top: 10px;
-margin-bottom: 15px;
-background: linear-gradient(to left, cadetblue, bisque)
-
+  width: 50%;
+  height: 70px;
+  background-color: bisque;
+  border: 5px inset black;
+  text-align: center;
+  margin-left: 25%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to left, cadetblue, bisque);
 }
 
 .videoYoutube {
-text-align: center;
+  text-align: center;
   border: 2px solid bisque;
   margin: 0px;
 }
 
 .paginaContactanos {
-
-    background-color: bisque;
+  background-color: bisque;
 }
 
 .tituloContactanos {
-
-    text-align: center;
-    width: 100% ;
-    height: 70px ;
-    border: 4px solid black;
-    background: linear-gradient(to left, cadetblue, bisque)
-
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  border: 4px solid black;
+  background: linear-gradient(to left, cadetblue, bisque);
 }
 
 .tituloSecundario {
-
-    margin-bottom: 10px;
-    margin-left: 30%;
-    font-style: oblique;
-
-
+  margin-bottom: 10px;
+  margin-left: 30%;
+  font-style: oblique;
 }
 
 .tituloWorking {
-
-font-style: oblique;
-
+  font-style: oblique;
 }
 
 /*Banderas en pag países*/
-
 .banderaEspaña {
-
-    width: 200px;
-    height: 200px;
-    padding: 25px;
-    border: 4px inset grey;
-    
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border: 4px inset grey;
 }
 
 .banderaSuecia {
-
-    width: 200px;
-    height: 200px;
-    padding: 25px;
-    border: 4px inset grey;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border: 4px inset grey;
 }
 
 .banderaNuevazelanda {
-
-    width: 200px;
-    height: 200px;
-    padding: 25px;
-    border: 4px inset grey;
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border: 4px inset grey;
 }
 
 .banderaFrancia {
-
-    width: 200px;
-    height: 200px;
-    padding: 25px;
-    border: 4px inset grey;
-
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border: 4px inset grey;
 }
 
 .banderaAustralia {
-
-    width: 200px;
-    height: 200px;
-    padding: 25px;
-    border: 4px inset grey;
-
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border: 4px inset grey;
 }
 
 .banderaDinamarca {
-
-    width: 200px;
-    height: 200px;
-    padding: 25px;
-    border: 4px inset grey;
-
+  width: 200px;
+  height: 200px;
+  padding: 25px;
+  border: 4px inset grey;
 }
 
 /*Listado de paises */
-
 .paisUno {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 
 .paisDos {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 
 .paisTres {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 
 .paisCuatro {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 
 .paisCinco {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 
 .paisSeis {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-    width: 500px;
-    height: 500px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-   
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
 }
 
 .tituloPaises {
-    
-    width: 50%;
-    height: 70px;
-    background-color: bisque;
-    border: 5px inset black;
-text-align: center;
-margin-left: 25%;
-border-radius: 10px;
-margin-top: 10px;
-margin-bottom: 15px;
-background: linear-gradient(to left, cadetblue, bisque)
-
-
+  width: 50%;
+  height: 70px;
+  background-color: bisque;
+  border: 5px inset black;
+  text-align: center;
+  margin-left: 25%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to left, cadetblue, bisque);
 }
 
 /*hoover etiquetas paises */
-
 .paisSeis:hover {
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 500px;
-    height: 500px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 500px;
+  height: 500px;
 }
 
 .paisCinco:hover {
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 500px;
-    height: 500px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 500px;
+  height: 500px;
 }
 
 .paisCuatro:hover {
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 500px;
-    height: 500px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 500px;
+  height: 500px;
 }
 
 .paisTres:hover {
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 500px;
-    height: 500px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 500px;
+  height: 500px;
 }
 
 .paisDos:hover {
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 500px;
-    height: 500px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 500px;
+  height: 500px;
 }
 
 .paisUno:hover {
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 500px;
-    height: 500px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 500px;
+  height: 500px;
 }
 
 .container {
-    background-color: #dcad3e;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    max-width: 400px;
-    width: 100%;
-    transition: transform 0.3s ease;
+  background-color: #dcad3e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  transition: transform 0.3s ease;
 }
 
 .container:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .form-group {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
+input[type=text],
+input[type=email],
 textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 /*estilo a Testimonios*/
-
-
-
 .testimonioUno {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-display: inline-block;
-    width: 600px;
-    height: 600px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
 }
 
 .testimonioDos {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-        width: 600px;
-        height: 600px;
-        border: 5px inset black;
-        margin-bottom: 15px;
-        transition: all 2s;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
 }
 
 .testimonioTres {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-        width: 600px;
-        height: 600px;
-        border: 5px inset black;
-        margin-bottom: 15px;
-        transition: all 2s;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
 }
 
 .testimonioCuatro {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-        width: 600px;
-        height: 600px;
-        border: 5px inset black;
-        margin-bottom: 15px;
-        transition: all 2s;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
 }
 
 .testimonioCinco {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-    display: inline-block;
-        width: 600px;
-        height: 600px;
-        border: 5px inset black;
-        margin-bottom: 15px;
-        transition: all 2s;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
 }
 
 .testimonioSeis {
-    background: linear-gradient(to left,bisque , cadetblue) ;
-display: inline-block;
-    width: 600px;
-    height: 600px;
-    border: 5px inset black;
-    margin-bottom: 15px;
-    transition: all 2s;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: medium;
-
+  background: linear-gradient(to left, bisque, cadetblue);
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+  border: 5px inset black;
+  margin-bottom: 15px;
+  transition: all 2s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
 }
 
 .tituloTestimonios {
-
-    width: 50%;
-    height: 70px;
-    background-color: bisque;
-    border: 5px inset black;
-text-align: center;
-margin-left: 25%;
-border-radius: 10px;
-margin-top: 10px;
-margin-bottom: 15px;
-background: linear-gradient(to left, cadetblue, bisque)
-
-
+  width: 50%;
+  height: 70px;
+  background-color: bisque;
+  border: 5px inset black;
+  text-align: center;
+  margin-left: 25%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to left, cadetblue, bisque);
 }
 
 .paginaTestimonios {
-
-    background-color: bisque;
+  background-color: bisque;
 }
 
 .fotoRebord {
-
-    width: 200px;
-    height: 200px;
-
-
+  width: 200px;
+  height: 200px;
 }
 
 .fotoLucas {
-
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .fotoGerman {
-
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .fotoJazmin {
-
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .fotoMeli {
-
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-
-
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .fotoRoman {
-
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10px;
-
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
 }
 
 .parrafoPrincipal {
-
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .mapaPrincipal {
-
-margin-left: 50px;
-margin-right: 50px;
-
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .testimonioEspaña {
-
-    width: 50px;
-    height: 50px;
-
+  width: 50px;
+  height: 50px;
 }
 
 .testimonioSuecia {
-
-    width: 50px;
-    height: 50px;
-
+  width: 50px;
+  height: 50px;
 }
 
 .testimonioNuevazelanda {
-
-    width: 50px;
-    height: 50px;
-
+  width: 50px;
+  height: 50px;
 }
 
 .testimonioAustralia {
-
-        width: 50px;
-        height: 50px;
-    
+  width: 50px;
+  height: 50px;
 }
 
 .testimonioFrancia {
-
-    width: 50px;
-    height: 50px;
-
+  width: 50px;
+  height: 50px;
 }
 
 .testimonioDinamarca {
-
-    width: 50px;
-    height: 50px;
-
+  width: 50px;
+  height: 50px;
 }
 
-
-
-
-
 form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+input[type=text],
+input[type=number] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 .tituloGestion {
-
-    width: 50%;
-    height: 70px;
-    background-color: bisque;
-    border: 5px inset black;
-text-align: center;
-margin-left: 25%;
-border-radius: 10px;
-margin-top: 10px;
-margin-bottom: 15px;
-background: linear-gradient(to left, cadetblue, bisque)
-
-
+  width: 50%;
+  height: 70px;
+  background-color: bisque;
+  border: 5px inset black;
+  text-align: center;
+  margin-left: 25%;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: linear-gradient(to left, cadetblue, bisque);
 }
 
 .paginaGestiones {
-
-    background-color: bisque;
+  background-color: bisque;
 }
 
 .testimonioUno:hover {
-
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 700px;
-    height: 700px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 700px;
+  height: 700px;
 }
 
 .testimonioDos:hover {
-
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 700px;
-    height: 700px;
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 700px;
+  height: 700px;
 }
 
 .testimonioTres:hover {
-
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 700px;
-    height: 700px;
-
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 700px;
+  height: 700px;
 }
 
 .testimonioCuatro:hover {
-
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 700px;
-    height: 700px;
-
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 700px;
+  height: 700px;
 }
 
 .testimonioCinco:hover {
-
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 700px;
-    height: 700px;
-
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 700px;
+  height: 700px;
 }
 
 .testimonioSeis:hover {
-
-    background: linear-gradient(to left, cadetblue, bisque) ;
-    width: 700px;
-    height: 700px;
-
+  background: linear-gradient(to left, cadetblue, bisque);
+  width: 700px;
+  height: 700px;
 }
 
 .tituloWorking::first-letter {
-    color: grey;
+  color: grey;
 }
 
 /*Footer*/
-
 footer {
-
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
+
+/*# sourceMappingURL=Estilo.css.map */
